@@ -41,9 +41,10 @@ seletor.addEventListener("change", function () {
  })
 
 
-/*  //Funções
-   1 - Cifra de Cesar//  */
+ //Cifra de Cesar// 
    
+
+
 
 function codCesar() {
   var elementoDaMensagem = campoMsg.value;
