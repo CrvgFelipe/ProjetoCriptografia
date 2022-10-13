@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">    
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="content">
+        <h1>Criptografia </h1>
+    <form class="form">
+        
+        <label for = 'campoMsg'></label>
+        <textarea type="text" id="campoMsg" rows="5" cols="55" placeholder="Digite a Mensagem"></textarea> <br>
+
+        <select id='seletor'>
+            <option value="Selecione">Selecione</option>
+            <option value="cifraDeCesar">Cifra de Cesar</option>
+            <option value="base64">Base 64</option>
+        </select>
+
+        
+          
+        
+        
+        
+        <input type="number" id="escolhaNum" placeholder="Número" min="1" max="26"><br>
+        
+        
+        
+        
+        
+        
+        
+        <div class='radio'>
+            <input type="radio" id='codificar' name='radio-Cesar' value="radioCodificar"  checked>
+            <label for = 'codificar' id='labelcodificar'> Codificar </label> 
+
+           
+
+            <input type="radio" id='decodificar' name='radio-Cesar' value="radioecodificar"  checked>
+            <label for = 'codificar' id='labeldecodificar'> Decodificar </label>
+        </div>
+
+
+
+
+
+        <div>
+            
+
+            <textarea class="respostaMsg" rows="5" cols="55" readonly placeholder="Mensagem Criptografada"></textarea>
+        </div>
+
+        <input type="submit" value="Codificar" id="submit">
+
+        <input type="submit" value="Decodificar" id="submit">
+        
+        
+       
+    </form>
+</div>
+</header>
+<script src='js/cripto.js'></script>
+</body>
+</html>
