@@ -13,6 +13,10 @@
         <h1>Criptografia </h1>
     <form class="form">
         
+        
+        <!-- Campo para digitar mensagem  -->
+        
+        
         <label for = 'campoMsg'></label>
         <textarea type="text" id="campoMsg" rows="5" cols="55" placeholder="Digite a Mensagem"></textarea> <br>
 
@@ -25,7 +29,7 @@
         
           
         
-        
+        <!-- Campo escolher numero Cifra de cesar  -->
         
         <input type="number" id="escolhaNum" placeholder="Número" min="1" max="26"><br>
         
@@ -34,7 +38,8 @@
         
         
         
-        
+        <!-- Campo escolha codificar ou decodificar  -->
+    
         <div class='radio'>
             <input type="radio" id='codificar' name='radio-Cesar' value="radioCodificar"  checked>
             <label for = 'codificar' id='labelcodificar'> Codificar </label> 
@@ -48,11 +53,9 @@
 
 
 
-
+        <!-- Campo da resposta cripttografada -->
         <div>
-            
-
-            <textarea class="respostaMsg" rows="5" cols="55" readonly placeholder="Mensagem Criptografada"></textarea>
+             <textarea class="respostaMsg" rows="5" cols="55" readonly placeholder="Mensagem Criptografada"></textarea>
         </div>
 
         <input type="submit" value="Codificar" id="submit">
