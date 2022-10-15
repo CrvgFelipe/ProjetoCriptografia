@@ -15,6 +15,8 @@ body {
     
 }
 
+/* personalização caixa criptografia */
+
 .content{
     background-color: black;
     padding: 2rem;
@@ -38,12 +40,24 @@ h1{
     gap: 1rem;
 }
 
+
+
+
+
+
+/* Personaliização da escolha do número */
 #escolhaNum {
      align-self: center;
     font-family: Arial, Helvetica, sans-serif;
     width: 20%;
     
 }
+
+
+
+
+
+/* personalização botao radio */
 
 .radio{
     text-align: center;
@@ -54,6 +68,8 @@ h1{
 }
 
 
+
+/* personalização campo escrever mensagem */
 
 #campoMsg {
     padding: 8px 5px;
@@ -73,6 +89,9 @@ h1{
 
  }
 
+
+
+/* personalização seletor cifra/base */
 #seletor {
    align-self: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -82,6 +101,8 @@ h1{
 }
     
 
+
+/* personalização botão criptografrar*/
 
 #submit {
     display:none;
@@ -105,10 +126,15 @@ h1{
 }
 
 
+
+/* personalização campo resposta */
+
 .respostaMsg{
     background-color: #181818;
     color:white;
 }
+
+
 
 @media screen and (max-width: 600px) {
     .content{
